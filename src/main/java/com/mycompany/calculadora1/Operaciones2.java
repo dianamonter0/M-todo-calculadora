@@ -17,6 +17,7 @@ public class Operaciones2 {
     int resta;
     int multiplicacion;
     int division;
+    int residuo;
     
     //Métodos
     
@@ -39,6 +40,7 @@ public class Operaciones2 {
     
     public void dividir(){
         division=numero1/numero2;
+        residuo=numero1%numero2;
     }
     
      public void mostrarResultados(){
@@ -46,5 +48,6 @@ public class Operaciones2 {
         System.out.println("La resta es "+resta);
         System.out.println("La multiplicación es "+multiplicacion);
         System.out.println("La division es "+division);
+        System.out.println("El residuo es "+residuo);
     }
 }
